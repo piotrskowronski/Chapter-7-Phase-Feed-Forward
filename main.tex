@@ -1,14 +1,25 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-
-\title{Chapter 7 Phase Feed Forward}
-\author{Piotr Skowronski}
-\date{September 2019}
-
+\documentclass[]{ctfreport}
+\graphicspath{{./}{figs/07/}}
 \begin{document}
 
-\maketitle
+ \newpage
+ \input{intro}
+%Add here more of your chapter files (for single chapter generation)
+% \input{section1}  % section.tex
 
-\section{Introduction}
+% \input{section2}
+
+ \input{Setup}
+ \input{Hardware}
+ \input{Optics}
+ 
+ \input{Results}
+ \input{Conclusions}
+
+
+\newpage
+\newpage
+\chapter*{References}
+\input{bibliography}
 
 \end{document}
